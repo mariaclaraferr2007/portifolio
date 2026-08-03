@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
