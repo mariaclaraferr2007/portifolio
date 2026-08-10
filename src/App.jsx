@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Circle from "./components/Circle/Circle";
+import Projects from "./components/Project/Projects";
 
 function App() {
   const [activeSection, setActiveSection] = useState("hero");
@@ -51,6 +52,7 @@ function App() {
       </nav>
       <Hero />
       <About />
+      <Projects />
       <Footer />
       <Circle activeSection={activeSection} />
     </div>
