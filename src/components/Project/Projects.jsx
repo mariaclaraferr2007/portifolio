@@ -9,7 +9,7 @@ const projects = [
       "Sistema de gestão de biblioteca com cadastro, empréstimo e devolução de itens. Construído para aplicar Programação Orientada a Objetos e arquitetura em camadas (domínio, persistência e serviços) na prática, usando herança e polimorfismo para modelar diferentes tipos de usuário e de item.",
     tech: ["React", "TypeScript", "Vite"],
     github: "https://github.com/seu-usuario/biblioteca-app",
-    demo: "sistema-bibliotecaria-lqq9rpe7t.vercel.app",
+    demo: "https://sistema-bibliotecario-eta.vercel.app/",
     image: "/biblioteca.png",
   },
 ];
