@@ -7,7 +7,7 @@ export default function FooterSection({ title, items }) {
       <ul>
         {items.map((item, index) => (
           <li key={index}>
-            <a href="#">{item}</a>
+            <a href={item.href ?? "#"} target={item.href?.startsWith("http") ? "_blank" : "_self"} rel="noreferrer">{item.label ?? item}</a>
           </li>
         ))}
       </ul>

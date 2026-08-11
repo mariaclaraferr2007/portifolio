@@ -10,6 +10,7 @@ export default function Circle({ activeSection }) {
         <div
           key={section}
           className={`nav-circle ${activeSection === section ? "active" : ""}`}
+          onClick={() => document.getElementById(section)?.scrollIntoView({ behavior: "smooth" })}
         />
       ))}
     </div>

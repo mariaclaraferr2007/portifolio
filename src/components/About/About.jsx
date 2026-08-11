@@ -1,9 +1,11 @@
 import React from "react";
-import "./About.css"; // arquivo de estilo separado
+import "./About.css";
+import ParticlesBackground from "../ParticlesBackground";
 
 const About = () => {
   return (
     <div id="about" className="about-container">
+      <ParticlesBackground />
       <div className="about-content">
         {/* Foto */}
         <div className="about-image">

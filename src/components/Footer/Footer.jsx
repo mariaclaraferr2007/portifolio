@@ -15,11 +15,19 @@ export default function Footer() {
 
       <FooterSection
         title="NAVEGAÇÃO"
-        items={["SOBRE", "PROJECTS", "CONNECT"]}
+        items={[
+          { label: "ABOUT ME", href: "#about" },
+          { label: "PROJECTS", href: "#projects" },
+          { label: "CONTACT ME", href: "#contact" },
+        ]}
       />
       <FooterSection
         title="REDES SOCIAS"
-        items={["INSTAGRAM", "LINKEDIN", "GITHUB"]}
+        items={[
+          { label: "INSTAGRAM", href: "https://www.instagram.com/maria_ferreira_5350?igsh=aHNua2l2MTVoOTl2" },
+          { label: "LINKEDIN", href: "https://www.linkedin.com/in/maria-clara-ferreira-lopes/" },
+          { label: "GITHUB", href: "https://github.com/mariaclaraferr2007" },
+        ]}
       />
     </footer>
   );

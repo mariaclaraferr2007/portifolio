@@ -1,8 +1,10 @@
 import React from "react";
 import "./Hero.css";
+import ParticlesBackground from "../ParticlesBackground";
 export default function Hero() {
   return (
     <section id="hero" className="hero">
+      <ParticlesBackground />
       <div className="hero-content">
         <img src="/Perfil.jpg" alt="Clara Lopes" className="hero-img" />
         <h1>Hello. I am Clara Lopes.</h1>
@@ -19,7 +21,9 @@ export default function Hero() {
           </a>
         </div>
 
-        <button className="hero-btn">VAMOS CONVERSAR!</button>
+        <a href="#contact">
+          <button className="hero-btn">VAMOS CONVERSAR!</button>
+        </a>
       </div>
     </section>
   );

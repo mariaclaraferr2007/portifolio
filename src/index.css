@@ -54,6 +54,16 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.particles-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.particles-background canvas {
+  pointer-events: auto;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

@@ -1,6 +1,7 @@
 import React from "react";
-import "./Projects.css"; // arquivo de estilo separado
+import "./Projects.css";
 import ProjectCard from "./ProjectCard";
+import ParticlesBackground from "../ParticlesBackground";
 
 const projects = [
   {
@@ -17,6 +18,7 @@ const projects = [
 const Projects = () => {
   return (
     <div id="projects" className="projects-container">
+      <ParticlesBackground />
       <div className="projects-content">
         <h2>Projects</h2>
         <hr />

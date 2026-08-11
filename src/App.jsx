@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Circle from "./components/Circle/Circle";
 import Projects from "./components/Project/Projects";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [activeSection, setActiveSection] = useState("hero");
@@ -53,6 +54,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Contact />
       <Footer />
       <Circle activeSection={activeSection} />
     </div>

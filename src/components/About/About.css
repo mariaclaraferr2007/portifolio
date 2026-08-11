@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000000;
+  background-color: transparent;
   color: white;
   padding: 60px 40px;
   border-radius: 10px;
   position: relative;
+  overflow: hidden;
   min-height: 100vh;
 }
 
@@ -14,6 +15,8 @@
   display: flex;
   align-items: center;
   gap: 40px;
+  position: relative;
+  z-index: 1;
 }
 
 .about-image img {
@@ -79,9 +82,29 @@
     max-width: 500px;
   }
 
+  .about-text h2 {
+    text-align: center;
+  }
+
+  .about-text hr {
+    margin: 8px auto 20px;
+  }
+
+  .about-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 200px;
+  }
+
   .about-image img {
-    width: 200px;
+    width: 100%;
+    max-width: 100%;
     height: 200px;
+    object-fit: cover;
+    object-position: center 20%;
+    border-radius: 16px;
   }
 
   .about-timeline {
