@@ -1,20 +1,69 @@
-# React + Vite
+# Clara Lopes — Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido em **React**, com seções de apresentação, sobre mim, projetos e contato, navegação por scroll com indicador visual, e um efeito de fundo com partículas em constelação animado em cada seção.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** + **Vite**
+- **React Icons** — ícones de redes sociais e contato
+- **react-tsparticles** / **tsparticles-slim** — efeito de partículas interativo
+- **ESLint** — padronização de código
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-Sempre que fizer uma alteração, siga os passos abaixo no terminal:
+Abre em `portifólio-sigma-dois-89.vercel.app`.
 
-```bash
-    git add .
-    git commit -m "Descreva aqui sua alteração"
-    git push
+
+
+## Estrutura
+
 ```
+src/
+├── components/
+│   ├── Header/
+│   │   ├── Navigation.jsx      # Cabeçalho fixo com menu de navegação
+│   │   └── Navigation.css
+│   ├── Hero/
+│   │   ├── Hero.jsx            # Seção de abertura (foto, nome, redes sociais)
+│   │   └── Hero.css
+│   ├── About/
+│   │   ├── About.jsx           # Seção "Sobre mim"
+│   │   └── About.css
+│   ├── Projects/
+│   │   ├── Projects.jsx        # Seção de projetos (grid de cards)
+│   │   ├── ProjectCard.jsx     # Card individual, reutilizável por projeto
+│   │   └── Projects.css
+│   ├── Contact/
+│   │   ├── Contact.jsx         # Seção de contato (email, telefone, redes)
+│   │   └── Contact.css
+│   ├── Footer/
+│   │   ├── Footer.jsx          # Rodapé com navegação e redes sociais
+│   │   └── Footer.css
+│   ├── Circle/
+│   │   ├── Circle.jsx          # Indicador de seção ativa (bolinhas laterais)
+│   │   └── Circle.css
+│   ├── ParticlesBackground.jsx # Efeito de partículas, reutilizado em cada seção
+│   ├── SocialIcons.jsx         # Ícones de redes sociais (Instagram, LinkedIn, GitHub)
+│   └── TitleHeaderFooter.jsx   # Logo/nome, usado no header e no footer
+├── App.jsx                     # Composição das seções + scroll tracking
+├── index.css                   # Estilos globais e tokens de cor
+└── main.jsx                    # Ponto de entrada
+```
+
+## Funcionalidades
+
+- **Navegação por scroll**: o menu e o indicador lateral (`Circle`) acompanham automaticamente qual seção está visível na tela, usando o evento de scroll da página.
+- **Projetos dinâmicos**: a seção `Projects` renderiza os cards a partir de um array de dados — adicionar um novo projeto é só incluir um objeto novo, sem tocar em `ProjectCard.jsx`.
+- **Efeito de partículas**: `ParticlesBackground` é um componente único, reaproveitado em todas as seções (`Hero`, `About`, `Projects`, `Contact`), cada instância limitada à sua própria seção via `position: relative` no container.
+
+## Identidade visual
+
+- Fundo preto (`#000000`), texto branco
+- Cor de destaque terracota (`#db9f75` / laranja) para hovers, tags e realces de texto
+- Tipografia serifada (**Playfair Display**) no logo/título, sans-serif no corpo
+
+## Contato
+
+- **Email**: mariaclaraferreiralopes82@gmail.com
+- **LinkedIn**: [linkedin.com/in/maria-clara-ferreira-lopes](https://www.linkedin.com/in/maria-clara-ferreira-lopes/)
+- **GitHub**: [github.com/mariaclaraferr2007](https://github.com/mariaclaraferr2007)
