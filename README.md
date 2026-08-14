@@ -11,7 +11,7 @@ Portfólio pessoal desenvolvido em **React**, com seções de apresentação, so
 
 
 
-Abre em `https://portifolio-sigma-two-89.vercel.app/`.
+Abre em https://portifolio-sigma-two-89.vercel.app/
 
 
 
