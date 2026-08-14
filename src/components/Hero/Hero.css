@@ -7,13 +7,6 @@
   padding: 60px;
   min-height: 100vh;
   position: relative;
-  overflow: hidden;
-}
-
-.particles-background {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
 }
 
 .hero-content {
@@ -69,7 +62,8 @@
 .hero-btn:hover {
   background-color: #717171;
 }
-x .timeline {
+
+.timeline {
   display: flex;
   flex-direction: column;
   align-items: center;

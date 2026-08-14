@@ -13,6 +13,15 @@ const projects = [
     demo: "https://sistema-bibliotecario-eta.vercel.app/",
     image: "/biblioteca.png",
   },
+  {
+    title: "E-commerce - Loja de Produtos Capilares",
+    description:
+      "Sistema de gestão de e-commerce com cadastro, compra e venda de produtos capilares. Construído para aplicar Programação Orientada a Objetos e arquitetura em camadas (domínio, persistência e serviços) na prática, usando herança e polimorfismo para modelar diferentes tipos de usuário e de item.",
+    tech: ["React", "TypeScript", "Vite"],
+    github: "https://github.com/mariaclaraferr2007/E_CommerceCapilar.git",
+    demo: "https://e-commerce-capilar.vercel.app/",
+    image: "/ecommerceCapilar.png",
+  },
 ];
 
 const Projects = () => {

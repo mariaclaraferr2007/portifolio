@@ -1,10 +1,12 @@
 import React from "react";
-import "./Contact.css"; // arquivo de estilo separado
+import "./Contact.css";
 import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
+import ParticlesBackground from "../ParticlesBackground";
 
 const Contact = () => {
   return (
     <div id="contact" className="contact-container">
+      <ParticlesBackground />
       <div className="contact-content">
         <h2>Contact Me</h2>
         <hr />

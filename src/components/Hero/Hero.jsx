@@ -21,9 +21,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <a href="#contact">
-          <button className="hero-btn">VAMOS CONVERSAR!</button>
-        </a>
+        <button className="hero-btn">VAMOS CONVERSAR!</button>
       </div>
     </section>
   );
