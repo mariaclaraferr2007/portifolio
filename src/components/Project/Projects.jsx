@@ -19,7 +19,7 @@ const projects = [
       "Sistema de gestão de e-commerce com cadastro, compra e venda de produtos capilares. Construído para aplicar Programação Orientada a Objetos e arquitetura em camadas (domínio, persistência e serviços) na prática, usando herança e polimorfismo para modelar diferentes tipos de usuário e de item.",
     tech: ["React", "TypeScript", "Vite"],
     github: "https://github.com/mariaclaraferr2007/E_CommerceCapilar.git",
-    demo: "https://calcular-imc-iota.vercel.app/",
+    demo: "https://e-commerce-capilar.vercel.app/",
     image: "/ecommerceCapilar.png",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     description: "Sistema para calcular imc",
     tech: ["React", "TypeScript", "Vite"],
     github: "https://github.com/mariaclaraferr2007/CalcularIMC.git",
-    demo: "https://e-commerce-capilar.vercel.app/",
+    demo: "https://calcular-imc-iota.vercel.app/",
     image: "/CalculadoraIMC.png",
   },
 ];
