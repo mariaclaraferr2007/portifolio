@@ -20,7 +20,7 @@ const projects = [
     tech: ["React", "TypeScript", "Vite"],
     github: "https://github.com/mariaclaraferr2007/E_CommerceCapilar.git",
     demo: "https://calcular-imc-iota.vercel.app/",
-    image: "/CalculadoraIMC.png",
+    image: "/ecommerceCapilar.png",
   },
   {
     title: "Calculadora de IMC",
@@ -28,7 +28,7 @@ const projects = [
     tech: ["React", "TypeScript", "Vite"],
     github: "https://github.com/mariaclaraferr2007/CalcularIMC.git",
     demo: "https://e-commerce-capilar.vercel.app/",
-    image: "/ecommerceCapilar.png",
+    image: "/CalculadoraIMC.png",
   },
 ];
 
