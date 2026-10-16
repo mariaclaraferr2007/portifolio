@@ -5,6 +5,20 @@ import ParticlesBackground from "../ParticlesBackground";
 
 const projects = [
   {
+    title: "CRUD de Alunos",
+    description: "Sistema para cadastrar, buscar, deletar e alterar alunos",
+    tech: ["JavaScript"],
+    github: "https://github.com/mariaclaraferr2007/CRUDAlunos",
+    demo: "https://alunos-sigma.vercel.app/",
+    image: "/crudalunos.png",
+  },
+  {
+    title: "API de Videos",
+    description: "Sistema para cadastrar, buscar, deletar e alterar videos",
+    tech: ["JavaScript"],
+    github: "https://github.com/mariaclaraferr2007/API-Node",
+  },
+  {
     title: "Acervo — Sistema de Biblioteca",
     description:
       "Sistema de gestão de biblioteca com cadastro, empréstimo e devolução de itens. Construído para aplicar Programação Orientada a Objetos e arquitetura em camadas (domínio, persistência e serviços) na prática, usando herança e polimorfismo para modelar diferentes tipos de usuário e de item.",
@@ -21,14 +35,6 @@ const projects = [
     github: "https://github.com/mariaclaraferr2007/E_CommerceCapilar.git",
     demo: "https://e-commerce-capilar.vercel.app/",
     image: "/ecommerceCapilar.png",
-  },
-  {
-    title: "CRUD de Alunos",
-    description: "Sistema para cadastrar, buscar, deletar e alterar alunos",
-    tech: ["JavaScript"],
-    github: "https://github.com/mariaclaraferr2007/CRUDAlunos",
-    demo: "https://alunos-sigma.vercel.app/",
-    image: "/crudalunos.png",
   },
 ];
 
