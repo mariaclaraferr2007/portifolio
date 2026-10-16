@@ -23,12 +23,12 @@ const projects = [
     image: "/ecommerceCapilar.png",
   },
   {
-    title: "Calculadora de IMC",
-    description: "Sistema para calcular imc",
-    tech: ["React", "TypeScript", "Vite"],
-    github: "https://github.com/mariaclaraferr2007/CalcularIMC.git",
-    demo: "https://calcular-imc-iota.vercel.app/",
-    image: "/CalculadoraIMC.png",
+    title: "CRUD de Alunos",
+    description: "Sistema para cadastrar, buscar, deletar e alterar alunos",
+    tech: ["JavaScript"],
+    github: "https://github.com/mariaclaraferr2007/CRUDAlunos",
+    demo: "https://alunos-sigma.vercel.app/",
+    image: "/crudalunos.png",
   },
 ];
 
